@@ -59,6 +59,7 @@ a:hover {
 
 .backimage {
   width: 98.5vw;
+  position: relative;
 }
 
 .rightside {
@@ -139,18 +140,20 @@ input[type="button"]:hover {
   display: flex;
   padding: 40px;
   gap: 10px;
+  position: relative;
 }
 
 .three_box_mod {
   width: 700px;
   height: 645px;
-
+  position: relative;
   overflow: hidden;
 }
 
 .three_box_mod > img {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .three_box_mod > img:hover {
@@ -183,6 +186,7 @@ input[type="button"]:hover {
 .banner_image > img {
   width: 98.5vw;
   padding-bottom: 40px;
+  position: relative;
 }
 
 .banner_contents {
@@ -248,7 +252,7 @@ input[type="button"]:hover {
 .image_box {
   width: 650px;
   height: 650px;
-
+  position: relative;
   /*image stays within the container bocoz of image overlapping */
   overflow: hidden;
 }
@@ -256,7 +260,7 @@ input[type="button"]:hover {
 .big_img > div > img {
   /* width: 700px;
     height: 700px;  */
-
+    position: relative;
   /* width and height are 100% becoz full image should be dispalyed inside that box */
   width: 100%;
   height: 100%;
@@ -294,11 +298,13 @@ input[type="button"]:hover {
 .shopping_blocks {
   margin-left: 35px;
   padding-bottom: 40px;
+  position: relative;
 }
 
 .shop_blk_pic > img {
   width: 650px;
   height: 650px;
+  position: relative;
 }
 
 .shop_blk_pic_cont {

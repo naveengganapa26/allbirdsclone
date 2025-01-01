@@ -270,10 +270,14 @@ input[type="button"]:hover {
   color: whitesmoke;
 }
 
+.shopping_blocks-continer{
+    width: 98.5vw ;
+    position: relative;
+}
 
 .shopping_blocks {
-  margin-left: 35px;
-  padding-bottom: 40px;
+  /* margin-left: 35px; */
+  padding: 40px;
 }
 
 .shop_blk_pic > img {
@@ -284,7 +288,7 @@ input[type="button"]:hover {
 
 .shop_blk_pic_cont {
   position: absolute;
-  top: 185rem;
+  top: 28rem;
   color: white;
   padding-left: 35px;
 }
@@ -309,7 +313,7 @@ input[type="button"]:hover {
 
 .shop_blk_four_pics {
   position: absolute;
-  top: 160.2rem;
+  top: 2.5rem;
   display: flex;
   gap: 5px;
   flex-wrap: wrap;

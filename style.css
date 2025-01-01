@@ -1,0 +1,607 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: aliceblue;
+}
+
+/* green banner */
+
+.green_head {
+  background-color: rgb(27, 88, 27);
+  text-align: center;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  /* justify-content: space-between; */
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.nav1 {
+  width: 709.6px;
+  margin: 20px 0 0 0;
+}
+
+.nav2 {
+  font-family: fantasy;
+  font-size: 30px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.nav3 {
+  width: 709.6px;
+  margin: 20px 5px 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* main body form on image */
+
+.backimage {
+  width: 98.5vw;
+}
+
+.rightside {
+  /* background-image: url(/allbirds_clone/allbirds_images/wall1.avif);
+    height: 500px; */
+  position: absolute;
+  top: 120px;
+  left: 1000px;
+  direction: rtl;
+  color: whitesmoke;
+}
+
+.input_text1,
+.input_text2 {
+  font-size: 25px;
+  word-spacing: 5px;
+}
+
+.input_text3 {
+  margin-top: 5px;
+  font-size: 80px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.input_text4 {
+  font-size: 35px;
+}
+
+.input_text5 {
+  margin-top: 230px;
+  font-size: 18px;
+  word-spacing: 5px;
+}
+
+#space {
+  letter-spacing: 0.25px;
+  margin-top: -18px;
+}
+
+input[type="button"] {
+  padding: 16px 24px 16px 24px;
+  width: 170px;
+  font-weight: 600;
+  margin: 25px 0 0 10px;
+}
+
+/* hover effect for button */
+
+input[type="button"]:hover {
+  background-color: #212121;
+  color: whitesmoke;
+}
+
+/* featured contents in main body */
+
+.featured {
+  position: absolute;
+  top: 510px;
+  background-color: whitesmoke;
+  width: 150px;
+  height: 150px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.featured > p {
+  margin-left: 28px;
+}
+
+.featured2 > div {
+  margin-top: 10px;
+}
+
+/* main body 3 images */
+
+.threeimages {
+  display: flex;
+  padding: 40px;
+  gap: 10px;
+}
+
+.three_box_mod {
+  width: 700px;
+  height: 645px;
+
+  overflow: hidden;
+}
+
+.three_box_mod > img {
+  width: 100%;
+  height: 100%;
+}
+
+.three_box_mod > img:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+
+/* buttons on images */
+
+.but1 {
+  position: absolute;
+  top: 1300px;
+  left: 80px;
+}
+
+.but2 {
+  position: absolute;
+  top: 1300px;
+  left: 600px;
+}
+
+.but3 {
+  position: absolute;
+  top: 1300px;
+  left: 950px;
+}
+
+/* banner */
+
+.banner_image > img {
+  width: 98.5vw;
+  padding-bottom: 40px;
+}
+
+.banner_contents {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 93rem;
+  /* display: flex; */
+  margin-left: 350px;
+  /* background-color: aqua; */
+  /* width:520px */
+}
+
+.con1 {
+  font-size: 25px;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+
+.con2 {
+  font-size: 23px;
+  word-spacing: 2px;
+  margin-top: 35px;
+}
+
+.con3 {
+  font-size: 22px;
+  word-spacing: 2px;
+  margin-top: -20px;
+}
+
+.con4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.con5 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -35px;
+}
+
+/*  small navbar */
+
+.sec_nav {
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+/* page 4 big images */
+
+.big_img {
+  display: flex;
+  gap: 10px;
+  margin-left: 30px;
+  padding-bottom: 40px;
+}
+
+/* class with same name is given so that image size are fixed  */
+.image_box {
+  width: 650px;
+  height: 650px;
+
+  /*image stays within the container bocoz of image overlapping */
+  overflow: hidden;
+}
+
+.big_img > div > img {
+  /* width: 700px;
+    height: 700px;  */
+
+  /* width and height are 100% becoz full image should be dispalyed inside that box */
+  width: 100%;
+  height: 100%;
+
+  /* Ensures the image covers the box without stretching */
+  /* object-fit: cover; */
+}
+
+.big_img > div > img:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+
+/* big image contents */
+.big_img_cont1 {
+  position: absolute;
+  top: 143rem;
+  left: 270px;
+  font-size: 27px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.big_img_cont2 {
+  position: absolute;
+  top: 143rem;
+  left: 960px;
+  font-size: 27px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+/* shoe shopping blocks */
+
+.shopping_blocks {
+  margin-left: 35px;
+  padding-bottom: 40px;
+}
+
+.shop_blk_pic > img {
+  width: 650px;
+  height: 650px;
+}
+
+.shop_blk_pic_cont {
+  position: absolute;
+  top: 185rem;
+  color: white;
+  padding-left: 35px;
+}
+
+.p1 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.p2 {
+  /* main font */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: -20px;
+}
+
+.shop_blk_pic_btn {
+  margin-left: -8px;
+}
+
+/* shopping block 4 pics */
+.shop_blk_four_pics {
+  position: absolute;
+  top: 160.2rem;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-left: 660px;
+}
+.shop_blk_four_pics > div > img {
+  width: 320px;
+  height: 320px;
+  background-color: rgb(207, 213, 213);
+}
+
+/* <!-- page 6 two big images bestsellers --> */
+.bestsellerss {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+
+.bestsellerss_img1 > img {
+  width: 650px;
+  height: 600px;
+}
+
+.bestsellerss_img2 > img {
+  width: 650px;
+  height: 600px;
+}
+
+/* navbar_3 */
+
+.navbarthree {
+  margin-top: -20px;
+  padding-bottom: 10px;
+  width: 98.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarthree > div > p {
+  margin-left: 30px;
+  font-weight: bolder;
+  font-size: 17px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.navbarthree > div > a {
+  margin-right: 50px;
+  font-weight: bolder;
+  font-size: 17px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* <!-- bottom shopping cart --> */
+
+.mens_shoe_img {
+  margin-left: 30px;
+  display: flex;
+  gap: 10px;
+  width: 94.5vw;
+  overflow-y: hidden;
+}
+
+/* width */
+.mens_shoe_img::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+/* Track */
+.mens_shoe_img::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.mens_shoe_img::-webkit-scrollbar-thumb {
+  background: rgb(137, 137, 137);
+  border-radius: 10px;
+}
+
+.mens_shoe_img::-webkit-scrollbar-thumb:hover {
+  background: rgb(112, 112, 112);
+}
+
+.mens_shoe_img > div > img {
+  width: 360px;
+  height: 360px;
+  background-color: rgb(235, 232, 232);
+}
+
+.shop_buy {
+  margin-top: -17px;
+  margin-bottom: 20px;
+}
+
+.bold_name {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.nor_name {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nor_name > p {
+  margin-bottom: -15px;
+}
+
+/* email contents */
+
+.email_container {
+  margin: 40px 0 40px 0;
+  height: 340px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(227, 231, 231);
+}
+
+.email_contents {
+  width: 630px;
+  margin: 0 0 0 500px;
+  text-align: center;
+}
+
+.email_contents1 {
+  padding-top: 5px;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.email_contents2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#email_form {
+  border-style: none;
+  width: 400px;
+  height: 50px;
+  border-bottom-style: solid;
+  border-width: 3px;
+  border-color: black;
+}
+
+#email_but {
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+
+.email_contents3 {
+  font-size: 14px;
+}
+
+/* qulaity explanation */
+
+.quality {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0px 70px 40px 70px;
+  padding: 24px;
+}
+
+.quality_flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quality_main > p {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.q1_heading > p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* footer */
+
+.main_footer {
+  padding: 35px;
+  background-color: #212121;
+  color: whitesmoke;
+  height: 912px;
+}
+
+.details {
+  display: flex;
+}
+
+.details p {
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: bolder;
+  width: 333px;
+  padding-bottom: 15px;
+}
+
+.details ul a {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #dddddd;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+/* profiles */
+.profiles {
+  margin-left: 70px;
+}
+
+.profile_det p {
+  width: 333px;
+}
+
+.arr_pro_icon {
+  display: flex;
+  margin-left: -10px;
+}
+
+.arr_pro_icon i {
+  padding: 10px;
+  font-size: 17px;
+}
+
+/* certificate */
+
+.cert img {
+  margin: 10px 0 0 30px;
+  width: 100px;
+  height: 140px;
+}
+
+/* flags */
+
+.flags {
+  margin-left: 400px;
+}
+
+.flags img {
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+/* arrange in row direction using flex............. main chages of profiles */
+
+.profiles_3 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.final {
+  margin-top: 100px;
+}
+
+.final h5 {
+  text-align: center;
+}
+
+.final h5 a {
+  color: whitesmoke;
+}

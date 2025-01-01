@@ -1,7 +1,7 @@
 # Allbirds Website Clone  
 
 ## Project Overview  
-This is a **static website clone** of the **Allbirds** website, developed as part of my journey to improve frontend development skills. The project focuses on recreating the look and feel of the original website using **HTML** and **CSS**. It is hosted on **Vercel** for easy access and demonstration.  
+This is a **static website clone** of the **Allbirds** website, developed as part of my journey to improve frontend development skills. The project focuses on recreating the look and feel of the original website using **HTML** and **CSS**.  
 
 ---
 
@@ -13,15 +13,8 @@ This is a **static website clone** of the **Allbirds** website, developed as par
 
 ## Tech Stack  
 - **HTML**: For the website's structure.  
-- **CSS**: For styling and layout.  
-- **Hosting**: [Vercel](https://vercel.com/) for deployment.  
-
----
-
-## Deployment  
-The project is live and can be accessed using the following link:  
-[Allbirds Website Clone](https://your-vercel-project-url.vercel.app/)  
-
+- **CSS**: For styling and layout.
+- 
 ---
 
 ## Installation and Setup  
